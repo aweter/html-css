@@ -4,6 +4,45 @@
 /* акцент голубой #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 /* цвет шапка и цвет футер #2F303A */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --acent-color: #2196f3;
+}
+body {
+    background-color: white;
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+.logo span {
+    color: var(--acent-color);
+}
 .logo {
-    color: #2196F3;
+    color: #000000;
+}
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--acent-color);
+}
+.auth-nav .adress {
+    color: var(--title-text-color);
+}
+.auth-nav .adress:hover,
+.auth-nav .adress:focus {
+    color: var(--acent-color);
+}
+/* Section */
+.section-title {
+    color: var(--primary-text-color);
+}
+/* job */
+.job {
+    color: var(--title-text-color);
 }
