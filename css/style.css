@@ -9,9 +9,10 @@
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --acent-color: #2196f3;
+    --fon-color: #FFFFFF;
 }
 body {
-    background-color: white;
+    background-color: var(--fon-color);
     color: var(--primary-text-color);
 }
 .list {
@@ -31,6 +32,9 @@ body {
 .site-nav .link:focus {
     color: var(--acent-color);
 }
+.site-nav .link.current {
+    color: var(--acent-color);
+}
 .auth-nav .adress {
     color: var(--title-text-color);
 }
@@ -45,4 +49,9 @@ body {
 /* job */
 .job {
     color: var(--title-text-color);
+}
+/* button */
+.button {
+    color: var(--fon-color);
+    background-color: var(--acent-color);
 }
