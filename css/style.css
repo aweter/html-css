@@ -33,6 +33,7 @@ body {
 .site-nav .link {
     color: var(--primary-text-color);
 }
+
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color: var(--acent-color);
@@ -71,8 +72,4 @@ body {
 /* picture-fon */
 .picture-fon {
     color: var(--picture-fon);
-}
-/* fon future */
-.fon-future {
-    color: var(--fon-future);
 }
