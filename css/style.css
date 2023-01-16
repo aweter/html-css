@@ -4,12 +4,16 @@
 /* акцент голубой #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 /* цвет шапка и цвет футер #2F303A */
-
+/* цвет фона фото #EEEEEE */
+/* фон подвала #2F303A */
 :root {
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --acent-color: #2196f3;
     --fon-color: #FFFFFF;
+    --secondary-text-color: #F5F4FA;
+    --picture-fon: #EEEEEE;
+    --fon-future: #2F303A;
 }
 body {
     background-color: var(--fon-color);
@@ -54,4 +58,20 @@ body {
 .button {
     color: var(--fon-color);
     background-color: var(--acent-color);
+}
+.list-nav:hover,
+.list-nav:focus {
+    color: var(--fon-color);
+    background-color: var(--acent-color);
+}
+.button-list {
+    background-color: var(--secondary-text-color);
+}
+/* picture-fon */
+.picture-fon {
+    color: var(--picture-fon);
+}
+/* fon future */
+.fon-future {
+    color: var(--fon-future);
 }
