@@ -35,14 +35,8 @@ body {
     margin: 0;
     list-style: none;
 }
-.page {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .page-header {
     background-color: #ECECEC;
-    width: 1600px;
 }
 .container {
     width: 1230px;
@@ -54,6 +48,7 @@ body {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 /* main nav */
 .main-nav {
@@ -119,7 +114,7 @@ body {
 }
 /* Head */
 .cap {
-    width: 1600px;
+    width: 100%;
     background-color: var(--future-background-color);
     margin-left: auto;
     margin-right: auto;
@@ -135,7 +130,7 @@ body {
 }
 /* Section */
 .section {
-    width: 1600px;
+    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -190,7 +185,7 @@ body {
     text-align: center;
 }
 .section-card {
-    width: 1600px;
+    width: 100%;
     background-color: var(--secondary-font-color);
     padding-top: 94px;
     padding-bottom: 94px;
@@ -204,10 +199,8 @@ body {
 }
 .card-portfolio {
     width: 370px;
-    height: 404px;
     background-color: var(--background-color);
     border: 1px solid var(--picture-background-color);
-    margin-right: 30px;
     margin-bottom: 30px;
 }
 .card-portfolio:nth-child(3n) {
@@ -229,7 +222,7 @@ body {
     margin-bottom: 0;
 }
 .work {
-color: var(--title-text-color);
+    color: var(--title-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -289,7 +282,7 @@ color: var(--title-text-color);
     text-decoration: none;   
 }
 .section-portfolio {
-    width: 1600px;
+    width: 100%;
     padding-top: 66px;
     padding-bottom: 122px;
     margin: 0;
