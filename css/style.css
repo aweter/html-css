@@ -372,7 +372,9 @@ body {
     width: 44px;
     height: 44px;
 }
-.instagram:hover {
+.item .instagram:hover {
+    width: 44px;
+    height: 44px;
     background-color: var(--accent-color);
     border-radius: 50%;
 }
@@ -383,10 +385,11 @@ body {
     margin-top: 12px;
     margin-left: 12px;
 }
-.item:hover .instagram-icon{
+.item:hover .instagram-icon {
     fill: var(--background-color);
     margin-top: 12px;
-    margin-left: 12px;           
+    margin-left: 12px;
+     
 }
 .facebook {
     width: 44px;
@@ -394,7 +397,7 @@ body {
     display: inline-block;
     fill: var(--background-color);
 }
-.facebook:hover {
+.item .facebook:hover {
     width: 44px;
     height: 44px;
     background-color: var(--accent-color);
@@ -418,7 +421,7 @@ body {
     display: inline-block;
     color: var(--background-color);
 }
-.twitter:hover {
+.item .twitter:hover {
     width: 44px;
     height: 44px;
     background-color: var(--accent-color);
@@ -442,7 +445,7 @@ body {
     display: inline-block;
     fill: var(--background-color); 
 }
-.linkedin:hover {
+.item .linkedin:hover {
     width: 44px;
     height: 44px;
     background-color: var(--accent-color);
