@@ -372,7 +372,7 @@ body {
     width: 44px;
     height: 44px;
 }
-.item .instagram:hover {
+.item:hover .instagram {
     width: 44px;
     height: 44px;
     background-color: var(--accent-color);
@@ -397,7 +397,7 @@ body {
     display: inline-block;
     fill: var(--background-color);
 }
-.item .facebook:hover {
+.item:hover .facebook {
     width: 44px;
     height: 44px;
     background-color: var(--accent-color);
@@ -421,7 +421,7 @@ body {
     display: inline-block;
     color: var(--background-color);
 }
-.item .twitter:hover {
+.item:hover .twitter{
     width: 44px;
     height: 44px;
     background-color: var(--accent-color);
@@ -445,7 +445,7 @@ body {
     display: inline-block;
     fill: var(--background-color); 
 }
-.item .linkedin:hover {
+.item:hover .linkedin {
     width: 44px;
     height: 44px;
     background-color: var(--accent-color);
