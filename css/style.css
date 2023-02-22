@@ -123,14 +123,14 @@ body {
     margin-right: 10px;
     fill: var(--title-text-color);
 }
-.con:hover {
+.item:hover .con {
     fill: var(--accent-color);
 }
 .tel {
     margin-right: 10px;
     fill: var(--title-text-color);   
 }
-.tel:hover {
+.item:hover .tel {
     fill: var(--accent-color);
 }
 /* Head */
@@ -170,9 +170,6 @@ body {
     padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
-}
-.future-list .item + .item {
-    margin-left: 30px;
 }
 .future-list {
     display: flex;
@@ -281,7 +278,7 @@ body {
     margin-top: 23px;
     margin-left: 64px;
 }
-.icon1:hover {
+.item:hover .icon1 {
     fill: var(--accent-color);
 }
 .icon2 {
@@ -291,7 +288,7 @@ body {
     margin-top: 19px;
     margin-left: 65px;
 }
-.icon2:hover {
+.item:hover .icon2 {
     fill: var(--accent-color);
 }
 .icon3 {
@@ -301,7 +298,7 @@ body {
     margin-top: 24.7px;
     margin-left: 61.68px;
 }
-.icon3:hover {
+.item:hover .icon3 {
     fill: var(--accent-color);
 }
 .icon4 {
@@ -311,7 +308,7 @@ body {
     margin-top: 24.7px;
     margin-left: 43px;
 }
-.icon4:hover {
+.item:hover .icon4 {
     fill: var(--accent-color);
 }
 .icon5 {
@@ -321,7 +318,7 @@ body {
     margin-top: 22.77px;
     margin-left: 54px;
 }
-.icon5:hover {
+.item:hover .icon5 {
     fill: var(--accent-color);
 }
 .icon6 {
@@ -331,7 +328,7 @@ body {
     margin-top: 22.37px;
     margin-left: 38px;
 }
-.icon6:hover {
+.item:hover .icon6 {
     fill: var(--accent-color);
 }
 .items {
@@ -367,7 +364,7 @@ body {
     justify-content: space-between;
     margin-top: 16px;
     margin-left: 32px;
-    margin-right: 32px;
+    margin-right: 32px;  
 }
 .instagram {
     display: inline-block;
@@ -386,7 +383,7 @@ body {
     margin-top: 12px;
     margin-left: 12px;
 }
-.instagram-icon:hover {
+.item:hover .instagram-icon{
     fill: var(--background-color);
     margin-top: 12px;
     margin-left: 12px;           
@@ -410,8 +407,10 @@ body {
     margin-top: 12px;
     margin-left: 12px;
 }
-.facebook-icon:hover {
+.item:hover .facebook-icon {
     fill: var(--background-color);
+    margin-top: 12px;
+    margin-left: 12px;
 }
 .twitter {
     width: 44px;
@@ -432,7 +431,7 @@ body {
     margin-top: 12px;
     margin-left: 12px;
 }
-.twitter-icon:hover {
+.item:hover .twitter-icon {
     fill: var(--background-color);
     margin-top: 12px;
     margin-left: 12px;
@@ -456,8 +455,10 @@ body {
     margin-top: 12px;
     margin-left: 12px;
 }
-.linkedin-icon:hover {
-    fill: var(--background-color);   
+.item:hover .linkedin-icon {
+    fill: var(--background-color);
+    margin-top: 12px;
+    margin-left: 12px;
 }
 /* job */
 .title {
