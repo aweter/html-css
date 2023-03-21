@@ -24,6 +24,12 @@ body {
     color: var(--primary-font-color);
     font-family: Roboto, sans-serif;
 }
+input:focus {
+    outline: none;
+}
+textarea:focus {
+    outline: none;
+}
 .list {
     padding: 0;
     margin: 0;
@@ -34,8 +40,6 @@ body {
 }
 .container {
     width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -47,6 +51,9 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
+}
+.main-nav1 {
+    display: flex;
 }
 .logo__web,
 .logo {
@@ -664,6 +671,7 @@ body {
     text-decoration: none;
 }
 .social {
+    margin-top: 0;
     display: block;
     margin-left: 70px;   
     width: 206px;
@@ -673,7 +681,7 @@ body {
     justify-content: space-between;
 }
 .conection {
-    width: 206px;
+    margin-top: 12px;
     margin-bottom: 20px;
     font-family: Roboto;
     font-size: 14px;
@@ -789,5 +797,184 @@ body {
     right: 1%;
     cursor: pointer;
     z-index: 3;
+    cursor: pointer;
+    fill: #000000;
+} 
+.close:hover {
+    fill: #2196F3;
 }
- 
+.form {
+    display: flex;
+    margin-left: 93px;
+}
+.form-field {
+    height: 50px;
+    width: 358px;    
+    padding: 15px;
+    margin-right: 12px;
+    background-color: var(--future-background-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+}
+.form-button {
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 48px;
+    padding: 10px;
+    padding-left: 25px;
+    border: none;
+    background-color: var(--accent-color); 
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.button-icon {
+    margin-left: 10px;
+}
+.form-modal {
+    margin: auto;
+    padding: 40px;
+}
+.text-modal {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.form-field-modal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    position: relative;   
+}
+.name-modal {
+    margin-bottom: 4px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(117, 117, 117, 1);
+}
+.input-modal {
+    width: 448px;
+    height: 40px;
+    padding-left: 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+} 
+
+.form-comment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.comment-modal {
+    width: 448px;
+    height: 120px;
+    padding-top: 12px;
+    padding-left: 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.comment-modal::placeholder {
+    height: 96px;
+    width: 416px;
+    left: 592px;
+    top: 530px;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(117, 117, 117, 0.5);
+}
+.comment-modal:focus {
+    border-color: #2196F3;
+}
+.policy {
+    display: flex;
+    align-items: center;
+    margin-left: 8.38px;
+    color: rgba(117, 117, 117, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+     
+}
+.checkbox {
+    appearance: none;
+    position: absolute;
+}
+.checkbox:checked + .policy-icon {
+    border-color: transparent;
+    background-color: #2196F3;
+    background-image: url('../images/iconcheck.svg');
+    background-size: contain;
+    background-origin: border-box;
+     
+     
+}
+.policy-icon {
+    display: inline-block;
+    margin-right: 8.38px; 
+    width: 16px;
+    height: 15px;
+    border: 2px solid #2a2a2a;
+    border-radius: 4px;
+}
+.condition-agriment {
+    color:#2196F3;
+}
+.form-button1 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin-left: 125px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px 32px 10px 32px;
+    border-radius: 4px;
+    color: var(--background-color);
+    background-color: var(--accent-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.icon-modal {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    
+}
+.input-modal:focus {
+    border-color: #2196F3;
+}
+.input-modal:focus + .icon-modal {
+    fill: #2196F3;
+}
