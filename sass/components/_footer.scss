@@ -1,0 +1,86 @@
+.footer {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $future-background-color;
+
+    &__main-nav1 {
+            display: flex;
+    }
+
+    &__address {
+        display: block;
+        width: 230px;
+    }
+
+    &__logo1 {
+        font-style: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        color: $text-color;
+        margin-bottom: 20px;
+        font-family: $logo-font-family;
+    }
+
+    &__logo-web {
+        color: $accent-color;
+        font-style: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        font-family: $logo-font-family;
+    }
+
+    &__post {
+        color: $background-color;
+    }
+
+    &__mail {
+        color: $mail-background-color;
+        text-decoration: none;
+    }
+
+    &__connection {
+        margin-top: 0;
+        display: block;
+        margin-left: 70px;
+        width: 206px;
+    }
+
+    &__connection-title {
+        margin-top: 12px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: $text-color;
+    }
+
+    &__connection-links {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+
+    &__item {
+        display: inline-block;
+        width: 44px;
+        height: 44px;
+        background-color: $social-background-color;
+        border-radius: 50%;
+    }
+
+    &__item:hover {
+        background-color: $accent-color;
+    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+}

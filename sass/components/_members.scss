@@ -1,0 +1,72 @@
+.members {
+    width: 100%;
+    background-color: $secondary-font-color;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__cast {
+        width: 270px;
+        height: 428px;
+        background-color: $background-color;
+        margin-right: 0;
+        margin-left: 0;
+        box-shadow: $cast-box-shadow;
+        border-radius: 4px;
+    }
+
+    &__cast-name {
+        color: $primary-font-color;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    &__cast-job {
+        color: $title-text-color;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        margin-left: 32px;
+        margin-right: 32px;    
+    }
+
+    &__links-item {
+        display: inline-block;
+        color: $background-color;
+        width: 44px;
+        height: 44px;    
+    }
+
+    &__links-icon {
+        fill: $icon-color;
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+        margin-left: 12px;    
+    }
+    
+    .item:hover &__links-item {
+        width: 44px;
+        height: 44px;
+        background-color: $accent-color;
+        border-radius: 50%;
+    }
+
+    .item:hover &__links-icon {
+        fill: $background-color;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+}
