@@ -351,22 +351,14 @@
           <li class="item">
             <a href="#" class="icon">
               <svg class="icon5">
-                <<<<<<< HEAD
-                <use href="./images/clientes/symbol-defs.svg#icon-icon5"></use>
-                =======
                 <use href="./images/sprite.svg#icon-icon5"></use>
-                >>>>>>> ce2ea55 (commit1)
               </svg>
             </a>
           </li>
           <li class="item">
             <a href="#" class="icon">
               <svg class="icon6">
-                <<<<<<< HEAD
-                <use href="./images/clientes/symbol-defs.svg#icon-icon6"></use>
-                =======
                 <use href="./images/sprite.svg#icon-icon6"></use>
-                >>>>>>> ce2ea55 (commit1)
               </svg>
             </a>
           </li>
@@ -375,7 +367,7 @@
     </section>
     <!--Футер-->
     <footer class="section-footer">
-      <nav class="container main-nav">
+      <nav class="container main-nav1">
         <div class="adress-footer">
           <a href="#" class="logo1"><span class="logo__web">Web</span>Studio</a>
           <p class="post">г. Киев, пр-т Леси Украинки, 26</p>
@@ -415,10 +407,78 @@
             </li>
           </ul>
         </div>
+
+        <form class="form">
+          <label for="email">
+            <p class="conection">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+            <input
+              class="form-field"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button type="submit" class="form-button">
+            Подписаться
+            <svg class="button-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </nav>
     </footer>
     <div class="backdrop" data-modal>
       <div class="modal">
+        <form class="form-modal">
+          <h3 class="text-modal">Оставьте свои данные, мы вам перезвоним</h3>
+          <div class="form-field-modal">
+            <label class="name-modal" for="name">Имя</label>
+            <input class="input-modal" type="text" name="name" id="name" />
+            <svg class="icon-modal" width="18" height="18">
+              <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
+            </svg>
+          </div>
+          <div class="form-field-modal">
+            <label class="name-modal" for="tel">Телефон</label>
+            <input class="input-modal" type="tel" name="tel" id="tel" />
+            <svg class="icon-modal" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
+            </svg>
+          </div>
+          <div class="form-field-modal">
+            <label class="name-modal" for="email">Почта</label>
+            <input class="input-modal" type="email" name="email" id="email" />
+            <svg class="icon-modal" width="18" height="18">
+              <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
+            </svg>
+          </div>
+          <div class="form-comment">
+            <label for="comment" class="name-modal">Комментарий</label>
+            <textarea
+              class="comment-modal"
+              name="comment"
+              id="comment"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <label class="policy">
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="topic"
+              value="condition"
+            />
+            <span class="policy-icon"></span>
+            Соглашаюсь с россылкой и принимаю<a
+              href="#"
+              class="condition-agriment"
+            >
+              Условия договора</a
+            >
+          </label>
+          <button type="submit" class="form-button1">Отправить</button>
+        </form>
         <div data-modal-close>
           <svg class="close">
             <use href="./images/sprite.svg#icon-close"></use>
