@@ -1,0 +1,29 @@
+.activity {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product {
+    position: relative;
+
+    &__item {
+        display: block;
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        background-color: $product-color;
+        bottom: 1%;
+    }
+
+    &__title {
+        margin-top: 27px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $background-color;
+    }
+}

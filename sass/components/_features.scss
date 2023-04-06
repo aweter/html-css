@@ -1,0 +1,69 @@
+.features {
+    width: 100%;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list-item {
+        display: block;
+        content: '';
+        width: 270px;
+        height: 120px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: $secondary-font-color;
+    }
+
+    &__list-item-antena {
+        width: 70px;
+        height: 70px;
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+
+    &__list-item-clock {
+        width: 70px;
+        height: 70px;
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+
+    &__list-item-diagram {
+        width: 70px;
+        height: 70px;
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+
+    &__list-item-astronaut {
+        width: 70px;
+        height: 70px;
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+
+    &__list-item-title {
+        color: $primary-font-color;
+        font-style: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    &__list-item-description {
+        width: 270px;
+        color: $title-text-color;
+        font-style: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,110 @@
+.header {
+    background-color: $page-header-background;
+
+    &__main-nav {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        font-style: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        color: $logo-color;
+        font-family: $logo-font-family;
+    }
+    &__logo-web {
+        color: $accent-color;
+        font-style: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        font-family: $logo-font-family;
+    }
+    &__site-nav {
+        display: flex;
+        margin-left: 93px;
+    }
+    &__site-nav .item+.item {
+        margin-left: 40px;
+    }
+        
+    &__link {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        color: $primary-font-color;
+        font-style: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        text-decoration: none;
+    }
+    
+    &__link.current,
+    &__link:hover,
+    &__link:focus {
+        color: $accent-color;
+        font-style: 500;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+        
+    &__link.current {
+        position: relative;
+    }
+
+    &__link.current::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: $accent-color;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-radius: 2px;
+    }
+    
+    &__auth-nav {
+        display: flex;
+        margin-left: auto;
+    }
+
+    &__auth-nav .item+.item {
+        margin-left: 50px;
+    }
+
+    &__adress {
+        display: flex;
+        align-items: center;
+        color: $title-text-color;
+        font-style: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        text-decoration: none;
+        padding-top: 15px;
+        padding-left: 0;
+        padding-bottom: 15px;
+    }
+
+    &__adress:hover,
+    &__adress:focus {
+        color: $accent-color;
+        font-style: 500;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+    &__auth-nav .item:hover &__con,
+    &__auth-nav .item:hover &__tel
+     {
+        fill: $accent-color;
+    }
+    &__con {
+        margin-right: 10px;
+        fill: $title-text-color;
+    }
+    &__tel {
+        margin-right: 10px;
+        fill: $title-text-color;
+    }
+}
